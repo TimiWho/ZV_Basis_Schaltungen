@@ -1,7 +1,7 @@
 # ZV_Basis_Schaltungen
 
 <img
-  src="/docs/assets/Opto.jpg"
+  src="/docs/assets/Opto.png"
   alt="Platine"
   title="Platine"
   style="display: inline-block; margin: 0 auto; max-width: 300px">

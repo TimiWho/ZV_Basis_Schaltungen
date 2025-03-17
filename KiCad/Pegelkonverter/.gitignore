@@ -1,0 +1,36 @@
+# GitIgnore
+# V0.7 - 25.10.2024
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*~
+_autosave-*
+*.tmp
+*.FCStd1
+
+# AutobackupFiles
+*-backups
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+.dsn
+
+# Cache file KiCAd
+*fp-info-cache
+*.kicad_prl
+*.kicad_pcb.lck
+
+# Exported BOM files
+*.xml
+*.csv
+
+# PythonUpload Script LOG
+otaUploadLog.txt
+
+# FreeCAD
+*.FCBak

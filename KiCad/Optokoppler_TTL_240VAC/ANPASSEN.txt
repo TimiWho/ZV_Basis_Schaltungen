@@ -1,0 +1,4 @@
+Hinweis zur Beschaltung des Optokoppler-Eingangs am Wemos D1 Mini (ESP8266):
+
+- Eingangspin: Für OptoSignal nicht D3 (GPIO0) oder D4 (GPIO2) verwenden, da diese auf dem D1 Mini feste 10 kΩ Pull-Up-Widerstände besitzen und beim Booten auf HIGH liegen müssen (bei anliegendem LOW-Signal startet der ESP nicht). Stattdessen freie GPIOs ohne Hardware-Pull-Up wie D1 (GPIO5) oder D2 (GPIO4) nutzen und im Code mit pinMode(PIN, INPUT) (ohne INPUT_PULLUP) konfigurieren.
+- Pull-Up-Widerstand R1: Den Pull-Up-Widerstand R1 von 47 kΩ auf 100 kΩ (bzw. bis 220 kΩ) erhöhen. Dadurch kann der Optokoppler (PC123) den Ausgang bei anliegenden 230 V AC sicher in die Sättigung unter 0,8 V DC (gemessen ca. 0,62 V DC) ziehen, sodass der LOW-Pegel zuverlässig erkannt wird.

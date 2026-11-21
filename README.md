@@ -1,7 +1,5 @@
 # ZV_Basis_Schaltungen
 
-[Kurze Änderungsübersicht](AENDERUNGEN_README_2026-10-21.md)
-
 ## 🚀 Basisschaltungen – Optokoppler und Pegelkonverter
 
 <img
@@ -16,7 +14,7 @@ Hardware-Bausteine für eigene Platinen, ergänzt um einen kleinen ESP8266-Einga
 
 **Dokumentationsstand:** 21.10.2026 · Branch `master`. Beschreibt den vorhandenen Projektstand; kein neuer Funktionstest am Gerät.
 
-[Quellcode herunterladen](https://github.com/TimiWho/ZV_Basis_Schaltungen/archive/refs/heads/master.zip) · [Ursprüngliche Haupt-README](README_Backup_2026-10-21.md)
+[Quellcode herunterladen](https://github.com/TimiWho/ZV_Basis_Schaltungen/archive/refs/heads/master.zip)
 
 ---
 
